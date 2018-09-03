@@ -31,6 +31,10 @@ h3{
 	text-transform: uppercase;
 }
 
+a:hover{
+	color:#fff;
+}
+
 .btn-verde{
 	background-color: $verde;
 	color:$blanco;
@@ -98,11 +102,12 @@ h3{
 	}
 
 	h3{
-		font-size: 1.3em;
+		font-size: 1.6em;
 		color:$verde;
 		font-weight: 600;
-		padding: 0 8em;
-		line-height: 2em;
+		padding: 0 6em;
+		line-height: 1.6em;
+		text-transform: inherit;
 	}
 
 	.contact{
